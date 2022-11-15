@@ -1,9 +1,13 @@
 {
   "name": "simple-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "node express testing",
   "main": "index.js",
+  "engines": {
+    "node": "19.x"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
